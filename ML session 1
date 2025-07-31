@@ -1,0 +1,21 @@
+import numpy as np
+
+print()
+print("single dimensional array")
+n1 = np.array([10, 20, 30, 40, 50])
+print(n1)
+
+print ()
+print("multi dimensional array")
+n1=np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+print(n1)
+
+print()
+print("multi dimensional array using arange function")
+n1 = np.arange(10,20)
+print(n1)
+
+print()
+print("multi dimensional array filled with zeros")
+n1 = np.zeros((5, 5))
+print(n1)
